@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "serve": "http-server",
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
     "lint": "eslint .",
